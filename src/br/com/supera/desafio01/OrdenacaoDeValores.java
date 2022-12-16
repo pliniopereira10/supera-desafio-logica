@@ -8,14 +8,11 @@ import java.util.stream.Collectors;
 public class OrdenacaoDeValores {
 
 	public static void main(String[] args) {
-		Scanner entrada;
-		List<Integer> valores;
-		int quantidadeDeValores;
 
-		entrada = new Scanner(System.in);
-		valores = new ArrayList<>();
+		Scanner entrada = new Scanner(System.in);
+		List<Integer> valores = new ArrayList<>();
 
-		quantidadeDeValores = entrada.nextInt();
+		int quantidadeDeValores = entrada.nextInt();
 		for (int i = 0; i < quantidadeDeValores; i++) {
 			valores.add(entrada.nextInt());
 		}
